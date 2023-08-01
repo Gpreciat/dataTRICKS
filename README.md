@@ -1,9 +1,9 @@
 # Welcome to dataTRICKS GitHub Repository
 
-![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Expert-green.svg)
-![Software Development](https://img.shields.io/badge/Software%20Development-Expert-blueviolet.svg)
+![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
 ![Metabolic Engineering](https://img.shields.io/badge/Metabolic%20Engineering-Expert-orange.svg)
+![Software Development](https://img.shields.io/badge/Software%20Development-Expert-blueviolet.svg)
 ![Mathematical Optimization](https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-yellow.svg)
 ![Research](https://img.shields.io/badge/Research-Enthusiast-brightgreen.svg)
 
