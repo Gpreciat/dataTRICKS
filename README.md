@@ -9,6 +9,7 @@
 
 ## About Me
 Greetings! I am a highly skilled data consultant, with expertise in metabolic engineering, machine learning, and data science. My primary focus is on processing and analyzing biological data, although I have successfully applied my knowledge to various domains, including banking and marketing. 
+
 At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovation, and Consulting in Knowledge Science**, I am committed to delivering cutting-edge solutions and insights.
 
 ## Projects Repository Overview
