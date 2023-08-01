@@ -1,7 +1,8 @@
 # Welcome to dataTRICKS GitHub Repository
 
-![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Enthusiast-green.svg)
+![Biological Data Analysis](https://img.shields.io/badge/Biological%20Data%20Analysis-Expert-green.svg)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Expert-green.svg)
+![Data Science](https://img.shields.io/badge/Data%20Science-Enthusiast-blue.svg)
 
 ## About Me
 I am a data science consultant and a seasoned expert in machine learning, with a primary focus on biological data analysis. However, my expertise extends beyond biology, as I have successfully applied data-driven solutions to diverse domains such as banking and marketing. With a passion for transforming complex datasets into actionable insights, I am committed to delivering targeted solutions for research, innovation, and consulting in knowledge science.
