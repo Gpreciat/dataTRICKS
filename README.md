@@ -1,11 +1,11 @@
 # Welcome to dataTRICKS GitHub Repository
 
-<center>![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
+![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Expert-green.svg)
 ![Software Development](https://img.shields.io/badge/Software%20Development-Expert-blueviolet.svg)
 ![Metabolic Engineering](https://img.shields.io/badge/Metabolic%20Engineering-Expert-orange.svg)
 ![Mathematical Optimization](https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-yellow.svg)
-![Research](https://img.shields.io/badge/Research-Enthusiast-brightgreen.svg)</center>
+![Research](https://img.shields.io/badge/Research-Enthusiast-brightgreen.svg)
 
 ## About Me
 Greetings! I am a highly skilled data consultant, with expertise in metabolic engineering, machine learning, and data science. My primary focus is on processing and analyzing biological data, although I have successfully applied my knowledge to various domains, including banking and marketing. 
