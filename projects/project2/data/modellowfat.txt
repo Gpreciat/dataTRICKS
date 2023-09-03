@@ -1,0 +1,8 @@
+rxns,lb,ub
+EX_arachd(e),-0.047,-0.013
+EX_crvnc(e),-0.047,-0.013
+EX_glc(e),-1.5,-0.875
+EX_hdca(e),-0.375,-0.1
+EX_ocdca(e),-0.164,-0.044
+EX_ocdcea(e),-0.521,-0.331
+EX_ocdcya(e),-0.164,-0.044

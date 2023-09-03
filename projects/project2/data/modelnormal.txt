@@ -1,0 +1,17 @@
+rxns,lb,ub
+DM_atp(c),7.5,1000
+EX_arachd(e),-0.156,-0.013
+EX_crvnc(e),-0.156,-0.013
+EX_glc(e),-0.875,-0.525
+EX_hdca(e),-1.25,-0.1
+EX_lac-L(e),-0.875,1000
+EX_o2(e),-39.1,-23.438
+EX_ocdca(e),-0.547,-0.044
+EX_ocdcea(e),-4.141,-0.331
+EX_ocdcya(e),-0.547,-0.044
+ATPtm,-32.6,32.6
+CITRtm,-60,60
+OCOAT1m,-16.9,16.9
+SUCCt2m,-13.3,13.3
+EX_acac(e),-0.001,0
+EX_hb(e),-0.001,0

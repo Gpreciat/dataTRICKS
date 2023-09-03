@@ -1,3 +1,21 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Gpreciat/dataTRICKS">
+    <img src="logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">dataTRICKS</h3>
+
+  <p align="center">
+    Bridging Data and Biomedicine: Our Expertise, Your Solution 📈
+    <br />
+    <a href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
+
 # Welcome to dataTRICKS GitHub Repository
 
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Expert-green.svg)
