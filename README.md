@@ -17,7 +17,7 @@
   <p align="center">
    <h3 align="center">Our Expertise, Your Solution 📈</h3> 
     <br />
-    <a href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
+    <a align="center" href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
     <br />
     <br />
   </p>
@@ -65,24 +65,31 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
 
 ### Personalized Medicine
   Here, it is presentes machine learning projects, ranging from classic algorithms to deep learning models. These projects highlight the skills in developing predictive models and uncovering valuable patterns from complex datasets.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### Phenotype Characterization
   In the Phenotype Characterization directory, shows capabilities in data preprocessing, exploratory data analysis (EDA), and data visualization. These are the fundamental steps in gaining insights from data.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### K.marxianus Phenotyping
   In the K.marxianus Phenotyping section, shows metabolic engineering-focused data preprocessing. These tailored approaches are crucial for extracting valuable insights from K.marxianus Phenotyping data through metabolic engineering techniques.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### Omics Data Integration
   In this directory, you will find projects related to metabolic engineering and the optimization of biochemical processes. I demonstrate my expertise in modeling and manipulating metabolic pathways.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### Dopaminergic Neuron GEM
   This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### Chemoinformatics Integration
   In this directory, you will find my research-oriented projects. Although an enthusiast, I take on research initiatives to contribute to cutting-edge knowledge and innovations.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
   ### Sampling Solution Space
   This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
+[https://github.com/Gpreciat/dataTRICKS/](Check it out!)
 
 <!-- License -->
 ## License
@@ -91,5 +98,10 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
 ## Contribution and Contact
 
 We are open to collaborations and welcome feedback on our projects. Feel free to reach out to us through the contact information available in our GitHub profile. 
+
+German Preciat, PhD - [@gpreciat](https://www.linkedin.com/in/gpreciat/) - gapreciat@gmail.com
+
+Project Link: [https://github.com/Gpreciat/dataTRICKS/](https://github.com/Gpreciat/dataTRICKS/)
+
 
 Thank you for visiting dataTRICKS! Let's revolutionize knowledge science together! :rocket::microscope::gear:
