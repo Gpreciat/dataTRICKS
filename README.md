@@ -1,13 +1,9 @@
-<p align="center">
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Expert-green.svg)
-![Data Science](https://img.shields.io/badge/Data%20Science-Expert-blue.svg)
-![Metabolic Engineering](https://img.shields.io/badge/Metabolic%20Engineering-Expert-orange.svg)
-![Software Development](https://img.shields.io/badge/Software%20Development-Expert-blueviolet.svg)
-</p>
-<p align="center">
-![Mathematical Optimization](https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-yellow.svg)
-![Research](https://img.shields.io/badge/Research-Enthusiast-brightgreen.svg)
-</p>
+![Data Science](https://img.shields.io/badge/Data%20Science-Expert-green.svg)
+![Metabolic Engineering](https://img.shields.io/badge/Metabolic%20Engineering-Expert-green.svg)
+![Software Development](https://img.shields.io/badge/Software%20Development-Expert-green.svg)
+![Mathematical Optimization](https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-blueviolet.svg)
+![Research](https://img.shields.io/badge/Research-Enthusiast-blueviolet.svg)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -19,7 +15,7 @@
  <!--  <h3 align="center">dataTRICKS</h3>  -->
 
   <p align="center">
-   ## Bridging Data and Biomedicine: Our Expertise, Your Solution 📈
+   <h3 align="center">Our Expertise, Your Solution 📈</h3> 
     <br />
     <a href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
     <br />
@@ -33,33 +29,67 @@ Welcome to the dataTRICKS GitHub Repository! We specialize in **Metabolic Engine
 
 At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovation, and Consulting in Knowledge Science**, we are committed to delivering cutting-edge solutions and insights.
 
+### Programming Languages
+  - Python
+  - MATLAB
+  - Java
+  - Git
+  - LATEX
 
-## Projects Repository Overview
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-datatricks">About dataTRICKS</a>
+      <ul>
+        <li><a href="#programming-languages">Programming Languages</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#projects-repository-overview">Projects Repository Overview</a>
+      <ul>
+        <li><a href="#personalized-medicine">Personalized Medicine</a></li>
+        <li><a href="#phenotype-characterization">Phenotype Characterization</a></li>
+        <li><a href="#phenotype-characterization">Phenotype Characterization</a></li>
+        <li><a href="#omics-data-integration">Omics Data Integration</a></li>
+        <li><a href="#dopaminergic-neuron-gem">Dopaminergic Neuron GEM</a></li>
+        <li><a href="#chemoinformatics-integration">Chemoinformatics Integration</a></li>
+        <li><a href="#sampling-solution-space">Sampling Solution Space</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The Projects repository serves as a showcase of our proficiency in diverse fields, demonstrating well-structured and thoroughly documented projects. Each project showcases our expertise in various areas:
+### Personalized Medicine
+  Here, it is presentes machine learning projects, ranging from classic algorithms to deep learning models. These projects highlight the skills in developing predictive models and uncovering valuable patterns from complex datasets.
 
-### **Machine Learning**
+  ### Phenotype Characterization
+  In the Phenotype Characterization directory, shows capabilities in data preprocessing, exploratory data analysis (EDA), and data visualization. These are the fundamental steps in gaining insights from data.
 
-In this section, you'll find machine learning projects, ranging from classic algorithms to deep learning models. These projects highlight our skills in developing predictive models and uncovering valuable patterns from complex datasets.
+  ### K.marxianus Phenotyping
+  In the K.marxianus Phenotyping section, shows metabolic engineering-focused data preprocessing. These tailored approaches are crucial for extracting valuable insights from K.marxianus Phenotyping data through metabolic engineering techniques.
 
-### **Data Science**
+  ### Omics Data Integration
+  In this directory, you will find projects related to metabolic engineering and the optimization of biochemical processes. I demonstrate my expertise in modeling and manipulating metabolic pathways.
 
-Explore our capabilities in data preprocessing, exploratory data analysis (EDA), and data visualization in the Data Science directory. These are the fundamental steps in gaining insights from data.
+  ### Dopaminergic Neuron GEM
+  This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
 
-### **Metabolic Engineering**
+  ### Chemoinformatics Integration
+  In this directory, you will find my research-oriented projects. Although an enthusiast, I take on research initiatives to contribute to cutting-edge knowledge and innovations.
 
-Discover projects related to metabolic engineering and the optimization of biochemical processes in this directory. We demonstrate our expertise in modeling and manipulating metabolic pathways.
+  ### Sampling Solution Space
+  This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
 
-### **Software Development**
-
-Our Software Development directory contains projects where we showcase our proficiency in building efficient and scalable applications tailored to specific business needs.
-
-### **Research Projects**
-
-In this directory, you'll find our research-oriented projects. We take on research initiatives to contribute to cutting-edge knowledge and innovations.
+<!-- License -->
+## License
+  Distributed under the dataTRICKS License. See `LICENSE` for more information.
 
 ## Contribution and Contact
 
-We are open to collaborations and welcome feedback on our projects. Feel free to reach out to us through the contact information available in our GitHub profile. Thank you for visiting dataTRICKS! Let's revolutionize knowledge science together! 🚀🔬⚙️
+We are open to collaborations and welcome feedback on our projects. Feel free to reach out to us through the contact information available in our GitHub profile. 
 
 Thank you for visiting dataTRICKS! Let's revolutionize knowledge science together! :rocket::microscope::gear:
