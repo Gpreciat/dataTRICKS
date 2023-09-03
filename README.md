@@ -17,7 +17,9 @@
   <p align="center">
    <h3 align="center">Our Expertise, Your Solution 📈</h3> 
     <br />
-    <a align="center" href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
+    <p align="center">
+      <a href="https://github.com/Gpreciat/dataTRICKS/tree/main/projects"><strong>Explore our projects »</strong></a>
+    </p>
     <br />
     <br />
   </p>
@@ -58,6 +60,7 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
         <li><a href="#sampling-solution-space">Sampling Solution Space</a></li>
       </ul>
     </li>
+    <li><a href="#cv">CV</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -97,6 +100,9 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
   This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
 
 [Check it out!](https://github.com/Gpreciat/dataTRICKS/)
+
+## CV
+  You can find my detailed CV [here](https://github.com/Gpreciat/dataTRICKS/blob/main/cv/gPreciatCv.pdf).
 
 <!-- License -->
 ## License
