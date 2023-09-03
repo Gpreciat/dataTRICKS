@@ -1,0 +1,21 @@
+License Agreement
+
+All source code and projects available in this GitHub repository are protected under the following license agreement:
+
+1. You may use, modify, and distribute the source code of these projects for personal and commercial purposes.
+
+2. You must include proper attribution to the original owner (dataTRICKS) in all uses and redistributions of the source code. You can do this by providing a direct link to the original repository.
+
+Projects with External Dependencies:
+
+Some projects included here may depend on libraries or external functions found in other repositories or sources. For these projects:
+
+1. You must adhere to the license and usage terms provided in the original repositories of those external dependencies. These terms may vary and be subject to additional restrictions.
+
+2. Attribution to the original authors and owners of the external dependencies must be included as per the specific licenses of those dependencies.
+
+Note: This license applies only to the source code and projects directly available in this repository. If you download or use projects that depend on external functions, it is your responsibility to review and comply with the applicable licenses of those dependencies.
+
+If you have any questions or need clarification regarding the use of these projects, please feel free to contact us through the contact information available on our GitHub profile.
+
+Thank you for using our projects and contributing to the open-source community!
