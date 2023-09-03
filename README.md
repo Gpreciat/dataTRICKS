@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Gpreciat/dataTRICKS">
-    <img src="logo.png" alt="Logo" width="402" height="241">
+    <img src="images/logo.png" alt="Logo" width="402" height="241">
   </a>
 
  <!--  <h3 align="center">dataTRICKS</h3>  -->
