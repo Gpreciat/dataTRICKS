@@ -57,7 +57,7 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
       <ul>
         <li><a href="#personalized-medicine">Personalized Medicine</a></li>
         <li><a href="#phenotype-characterization">Phenotype Characterization</a></li>
-        <li><a href="#phenotype-characterization">Phenotype Characterization</a></li>
+        <li><a href="#kmarxianus-phenotyping">K.marxianus Phenotyping</a></li>
         <li><a href="#omics-data-integration">Omics Data Integration</a></li>
         <li><a href="#dopaminergic-neuron-gem">Dopaminergic Neuron GEM</a></li>
         <li><a href="#chemoinformatics-integration">Chemoinformatics Integration</a></li>
