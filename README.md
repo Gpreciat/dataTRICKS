@@ -88,7 +88,7 @@ At **dataTRICKS**, which stands for **Targeted solutions for Research, Innovatio
   ### Omics Data Integration
   In this directory, you will find projects related to metabolic engineering and the optimization of biochemical processes. I demonstrate my expertise in modeling and manipulating metabolic pathways.
 
-[Check it out!](https://github.com/Gpreciat/dataTRICKS/)
+[Check it out!](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/omicsDataIntegration)
 
   ### Dopaminergic Neuron GEM
   This directory contains projects related to software development, where I demonstrate my proficiency in building efficient and scalable applications tailored to specific business needs.
