@@ -33,7 +33,7 @@ For a detailed guide on using the XomicsToModel function, please refer to the [C
 
 ## License
 
-This project is distributed under the [COBRA Toolbox License](https://github.com/opencobra/cobratoolbox/blob/master/LICENSE). Please review the license for more information.
+This project is distributed under the [COBRA Toolbox License](https://github.com/opencobra/cobratoolbox/blob/master/LICENSE.md). Please review the license for more information.
 
 ## Contribution and Contact
 
