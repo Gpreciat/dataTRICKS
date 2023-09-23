@@ -31,6 +31,13 @@ Where:
 
 For a detailed guide on using the XomicsToModel function, please refer to the [COBRA Toolbox Documentation](https://github.com/opencobra/cobratoolbox/blob/master/docs/source/notes/COBRAModelFields.md).
 
+## Publication (Manuscript Under Review)
+
+For a comprehensive understanding of the XomicsToModel function and its applications, please refer to our publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
+
+[Link to Manuscript (Under Review)](https://www.biorxiv.org/content/10.1101/2021.11.08.467803v1)
+
+
 ## License
 
 This project is distributed under the [COBRA Toolbox License](https://github.com/opencobra/cobratoolbox/blob/master/LICENSE.md). Please review the license for more information.

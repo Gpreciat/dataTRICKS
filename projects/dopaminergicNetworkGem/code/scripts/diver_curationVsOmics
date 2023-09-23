@@ -1,0 +1,117 @@
+clear
+
+% generic model
+inputFolder = ['~' filesep 'work' filesep 'sbgCloud' filesep 'programExperimental' ...
+    filesep 'projects' filesep 'xomics' filesep 'data' filesep 'Recon3D_301'];
+genericModelName = 'Recon3DModel_301_xomics_input.mat';
+load([inputFolder filesep genericModelName])
+genericModel = model;
+
+% specificData
+dataFolder = ['~' filesep 'work' filesep 'sbgCloud' filesep 'programReconstruction' ...
+    filesep 'projects' filesep 'exoMetDN' filesep 'data' filesep 'xomics' filesep];
+bibliomicData = 'bibliomicData.xlsx';
+
+modelsDir = ['~' filesep 'work' filesep 'sbgCloud' filesep 'programReconstruction' ...
+    filesep 'projects' filesep 'exoMetDN' filesep 'results' filesep 'multidimensionalModelGeneration'];
+
+directoriesWithModels = dir(modelsDir);
+directoriesWithModels = struct2cell(directoriesWithModels([directoriesWithModels.isdir]));
+directoriesWithModels = directoriesWithModels(1, 3:end)';
+
+tableRxns = readtable([dataFolder bibliomicData], 'Sheet', 'activeReactions');
+tableRxns = removevars(tableRxns, setdiff(tableRxns.Properties.VariableNames, {'rxnID', 'type'}));
+% Read sinkDemand
+% tableRxns2 = readtable([dataFolder bibliomicData], 'Sheet', 'sinkDemand');
+% tableRxns2 = removevars(tableRxns2, setdiff(tableRxns2.Properties.VariableNames, {'rxnID'}));
+% tableRxns2.type(1:size(tableRxns2, 1)) = {'Sink and demands'};
+% [~, ic, ia] = unique(tableRxns2.rxnID);
+% tableRxns2(setdiff(ia, ic), :) = [];
+% Read Medium mets
+tableRxns3 = readtable([dataFolder bibliomicData], 'Sheet', 'mediaData');
+tableRxns3 = removevars(tableRxns3, setdiff(tableRxns3.Properties.VariableNames, {'rxnID'}));
+tableRxns3.type(1:size(tableRxns3, 1)) = {'Media metabolites'};
+tableRxns3(ismember(tableRxns3.rxnID, tableRxns.rxnID), :) = [];
+% Read Biomass precursors
+tableRxns4 = readtable([dataFolder bibliomicData], 'Sheet', 'coupledRxns');
+rxnID = [];
+for i = 1:length(tableRxns4.coupledRxnsList)
+    rxnID = [rxnID; split(tableRxns4.coupledRxnsList{i}, ', ')];
+end
+tableRxns4 = table(rxnID);
+tableRxns4.type(1:size(tableRxns4, 1)) = {'Biomass precursors'};
+tableRxns(ismember(tableRxns.rxnID, tableRxns4.rxnID), :) = [];
+% Join tables
+% tableRxns = [tableRxns; tableRxns2; tableRxns3; tableRxns4];
+tableRxns = [tableRxns; tableRxns3; tableRxns4];
+% Read rxns2constrain
+tableRxns5 = readtable([dataFolder bibliomicData], 'Sheet', 'rxns2constrain');
+rxnID = tableRxns5.rxnID;
+tableRxns5 = table(rxnID);
+tableRxns5.type(1:size(tableRxns5, 1)) = {'Others'};
+tableRxns5(ismember(tableRxns5.rxnID, tableRxns.rxnID), :) = [];
+% Join tables
+tableRxns = [tableRxns; tableRxns5];
+tableRxns.type(cellfun(@isempty, tableRxns.type)) = {'Others'};
+
+% Rename type
+tableRxns.type(contains(tableRxns.type, 'Other')) = {'Others'};
+tableRxns.type(contains(tableRxns.type, 'TranspMets+DiffMediumMets')) = {'Cellular transport'};
+tableRxns.type(contains(tableRxns.type, 'Dopaminergic neuron metabolism')) = {'Dopamine metabolism'};
+tableRxns.type(contains(tableRxns.type, 'manual curation from (Elassal.D et al. In preparation)')) = {'Mitochondrial & carbon central metabolism'};
+tableRxns.type(contains(tableRxns.type, 'Sinks and demands')) = {'Others'};
+tableRxns.type(contains(tableRxns.type, 'Exometabolomics [completely secreted metabolites – not ini')) = {'Others'};
+
+activeRxns = tableRxns.rxnID;
+activeRxns(~ismember(activeRxns, genericModel.rxns)) = [];
+
+curationExcludedRxns = {};
+omicsExcludedRxns = {};
+for i = 1:size(directoriesWithModels, 1)
+    workingDirectory = [modelsDir filesep directoriesWithModels{i} filesep];
+    
+    % Identify number dimensions
+    load([workingDirectory 'Model.mat'])
+    model = Model;
+    genericRxns = model.rxns;
+    
+    % rename field (long names doesn't work)
+    modelDir = regexprep(directoriesWithModels{i}, 'fastCore', 'FC');
+    modelDir = regexprep(modelDir, 'thermoKernel', 'TK');
+    modelDir = regexprep(modelDir, 'deleteModelGenes', 'DG');
+    modelDir = regexprep(modelDir, 'oneRxnPerActiveGene', 'OG');
+    modelDir = regexprep(modelDir, 'transcriptomics', '');
+    modelDir = regexprep(modelDir, 'limitBoundary\.', '');
+    modelDir = regexprep(modelDir, 'NoInactiveGenesT', 'nIG');
+    modelDir = regexprep(modelDir, 'inactiveGenesT', 'IG');
+    modelDir = regexprep(modelDir, 'openIons', 'OI');
+    modelDir = regexprep(modelDir, 'closedIons', 'CI');
+    modelDir = regexprep(modelDir, 'curationOverOmics', 'CO');
+    modelDir = regexprep(modelDir, 'omicsOverCuration', 'OC');
+    
+    excludedRxns.(modelDir).dirName = directoriesWithModels{i};
+    excludedRxns.(modelDir).rxns = activeRxns(~ismember(activeRxns, genericRxns));
+    
+     if 1 == mod(i, 2)
+        curationExcludedRxns = [curationExcludedRxns; excludedRxns.(modelDir).rxns];
+    else
+        omicsExcludedRxns = [omicsExcludedRxns; excludedRxns.(modelDir).rxns];
+    end
+end
+
+% Curation
+[uniqueCuration,~,idxCuration] = unique(curationExcludedRxns,'stable');
+countCuration = hist(idxCuration, unique(idxCuration));
+% Omics
+[uniqueOmics,~,idxOmics] = unique(omicsExcludedRxns,'stable');
+countOmics = hist(idxOmics, unique(idxOmics));
+
+curationRxns = setdiff(uniqueCuration, uniqueOmics);
+omicsRxns = setdiff(uniqueOmics, uniqueCuration);
+
+% plot data
+excludedCurationHist = countCuration(ismember(uniqueCuration, curationRxns));
+excludedOmicsHist = countOmics(ismember(uniqueOmics, omicsRxns));
+
+
+
