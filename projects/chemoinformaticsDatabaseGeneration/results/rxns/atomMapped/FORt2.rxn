@@ -1,0 +1,49 @@
+$RXN
+FORt2
+Atom mapped with COBRA Toolbox wrap ReactionDecoder rdt-2.5.0-SNAPSHOT - 14-Feb-2023 23:49:26
+for[e] + h[e] -> for[c] + h[c]
+  2  2
+$MOL
+for[e]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:12:05
+InChIKey=BDAGIHXWWSANSR-UHFFFAOYSA-M
+  4  3  0  0  0  0            999 V2000
+    1.2375    0.7145    0.0000 H   0  0  0  0  0  0  0  0  0  4  0  0
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  1  0  0
+    1.2375   -0.7145    0.0000 O   0  5  0  0  0  0  0  0  0  3  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  2  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  2  0  0  0  0
+M  CHG  1   3  -1
+M  END
+$MOL
+h[e]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:13:09
+InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N
+  1  0  0  0  0  0            999 V2000
+    0.0000    0.0000    0.0000 H   0  3  0  0  0  0  0  0  0  5  0  0
+M  CHG  1   1   1
+M  END
+$MOL
+for[c]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:12:05
+InChIKey=BDAGIHXWWSANSR-UHFFFAOYSA-M
+  4  3  0  0  0  0            999 V2000
+    1.2375    0.7145    0.0000 H   0  0  0  0  0  0  0  0  0  4  0  0
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  1  0  0
+    1.2375   -0.7145    0.0000 O   0  5  0  0  0  0  0  0  0  3  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  2  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  2  0  0  0  0
+M  CHG  1   3  -1
+M  END
+$MOL
+h[c]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:13:09
+InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N
+  1  0  0  0  0  0            999 V2000
+    0.0000    0.0000    0.0000 H   0  3  0  0  0  0  0  0  0  5  0  0
+M  CHG  1   1   1
+M  END

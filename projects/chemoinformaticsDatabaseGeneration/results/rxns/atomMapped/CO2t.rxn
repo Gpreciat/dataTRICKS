@@ -1,0 +1,27 @@
+$RXN
+CO2t
+Atom mapped with COBRA Toolbox wrap ReactionDecoder rdt-2.5.0-SNAPSHOT - 14-Feb-2023 23:47:22
+co2[e] -> co2[c]
+  1  1
+$MOL
+co2[e]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:11:19
+InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N
+  3  2  0  0  0  0            999 V2000
+    1.6500   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  2  0  0
+    2.4750   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  1  0  0
+    3.3000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  3  0  0
+  1  2  2  0  0  0  0
+  2  3  2  0  0  0  0
+M  END
+$MOL
+co2[c]
+COBRA Toolbox - explicitH molecule - 14-Feb-2023 23:11:19
+InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N
+  3  2  0  0  0  0            999 V2000
+    1.6500   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  2  0  0
+    2.4750   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  1  0  0
+    3.3000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  3  0  0
+  1  2  2  0  0  0  0
+  2  3  2  0  0  0  0
+M  END
