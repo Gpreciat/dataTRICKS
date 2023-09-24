@@ -1,6 +1,8 @@
 # Dopaminergic Neuron GEM (iDopaNeuro): Omics-Powered Repository
 
-![neuron](data/neuron.png)
+<p align="center">
+  <img src="data/neuron.png" alt="Neuron">
+</p>
 
 ## Introduction
 
