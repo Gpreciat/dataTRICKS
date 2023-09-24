@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Metabolic%20Engineering-Expert-green.svg" alt="Metabolic Engineering">
+  <img src="https://img.shields.io/badge/Software%20Development-Expert-green.svg" alt="Software Development">
+  <img src="https://img.shields.io/badge/Research-Expert-green.svg" alt="Research">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-blueviolet.svg" alt="Mathematical Optimization">
+</p>
+
 # COBRA Toolbox - XomicsToModel
 
 ## Introduction

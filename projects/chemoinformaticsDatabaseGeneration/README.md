@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Science-Expert-green.svg" alt="Data Science">
+  <img src="https://img.shields.io/badge/Metabolic%20Engineering-Expert-green.svg" alt="Metabolic Engineering">
+  <img src="https://img.shields.io/badge/Software%20Development-Expert-green.svg" alt="Software Development">
+  <img src="https://img.shields.io/badge/Research-Expert-green.svg" alt="Research">
+</p>
 
 # Chemoinformatics Database Generation
 
