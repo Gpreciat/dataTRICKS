@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This repository contains the code and resources related to the research project aimed at gaining a deeper understanding of the metabolic mechanisms underlying Parkinson's Disease. The work is currently under review in *Nature Communications in Biology* (Link to preprint: [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v2)).
+This repository contains the code and resources related to the research project aimed at gaining a deeper understanding of the metabolic mechanisms underlying Parkinson's Disease. The work is currently under review in *Nature Communications in Biology* (Link to [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v2)).
 
 ## Project Overview
 
