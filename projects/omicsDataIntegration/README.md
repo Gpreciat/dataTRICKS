@@ -8,15 +8,15 @@
   <img src="https://img.shields.io/badge/Mathematical%20Optimization-Enthusiast-blueviolet.svg" alt="Mathematical Optimization">
 </p>
 
-# COBRA Toolbox - XomicsToModel
+# XomicsToModel - Omics data integration in genome-scale models
 
 ## Introduction
 
-The **XomicsToModel** function is a powerful tool within the COBRA Toolbox designed to bridge the gap between multi-omics data and genome-scale metabolic models. This function serves as a transformative bridge, allowing researchers to translate various omics datasets, such as transcriptomics, proteomics, metabolomics, and literature-based "bibliomics," into context-specific metabolic models for particular cell types or conditions.
+The `XomicsToModel` function is a powerful tool within the COBRA Toolbox designed to bridge the gap between multi-omics data and genome-scale metabolic models. This function serves as a transformative bridge, allowing researchers to translate various omics datasets, such as transcriptomics, proteomics, metabolomics, and literature-based "bibliomics," into context-specific metabolic models for particular cell types or conditions.
 
 ## Key Features
 
-- **Multi-Omics Integration:** XomicsToModel seamlessly integrates diverse omics data types, including transcriptomics, proteomics, metabolomics, and bibliomics, to derive context-specific metabolic models.
+- **Multi-Omics Integration:** `XomicsToModel` seamlessly integrates diverse omics data types, including transcriptomics, proteomics, metabolomics, and bibliomics, to derive context-specific metabolic models.
 
 - **Contextualization:** It generates metabolic models tailored to specific cell types or conditions, providing insights into the metabolic behaviors that are relevant to the given context.
 
@@ -26,7 +26,7 @@ The **XomicsToModel** function is a powerful tool within the COBRA Toolbox desig
 
 ## How to Use
 
-To utilize the XomicsToModel function, follow these simple steps:
+To utilize the `XomicsToModel` function, follow these simple steps:
 
 ```matlab
 [model, modelGenerationReport] = XomicsToModel(genericModel, specificData, param);
@@ -39,18 +39,20 @@ Where:
 
 ## Getting Started
 
-For a detailed guide on using the XomicsToModel function, please refer to the [COBRA Toolbox Documentation](https://github.com/opencobra/cobratoolbox/blob/master/docs/source/notes/COBRAModelFields.md).
+You can also find scripts and functions related to this project in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox). For a detailed guide on using the `XomicsToModel` function, please refer to the [COBRA Toolbox Documentation](https://github.com/opencobra/cobratoolbox/blob/master/docs/source/notes/COBRAModelFields.md).
 
 ## Publication (Manuscript Under Review)
 
-For a comprehensive understanding of the XomicsToModel function and its applications, please refer to our publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
+For a comprehensive understanding of the `XomicsToModel` function and its applications, please refer to our publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
 
 [Link to Manuscript (Under Review)](https://www.biorxiv.org/content/10.1101/2021.11.08.467803v1)
 
 
 ## License
 
-This project is distributed under the [COBRA Toolbox License](https://github.com/opencobra/cobratoolbox/blob/master/LICENSE.md). Please review the license for more information.
+This project is dual-licensed under two licenses: [dataTRICKS](https://github.com/Gpreciat/dataTRICKS/blob/main/LICENSE.txt) (since I authored the code) and the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/) license (as the project was further developed there). Users are encouraged to review and comply with the terms of both licenses.
+
+For details on the licenses, please refer to the respective repositories.
 
 ## Contribution and Contact
 
@@ -60,4 +62,6 @@ We welcome contributions and feedback from the research community. If you have a
 - LinkedIn: [@gpreciat](https://www.linkedin.com/in/gpreciat/)
 - Email: gapreciat@gmail.com
 
-Thank you for choosing XomicsToModel. Together, let's unravel the mysteries of metabolism! 🧬🔬📊
+Thank you for choosing `XomicsToModel`. Together, let's unravel the mysteries of metabolism! 🧬🔬📊
+
+Happy coding!

@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This repository contains the code and resources related to the research project aimed at gaining a deeper understanding of the metabolic mechanisms underlying Parkinson's Disease. The work is currently under review in *Nature Communications in Biology* (Link to [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v2)).
+This repository contains the code and resources related to the research project aimed at gaining a deeper understanding of the metabolic mechanisms underlying Parkinson's Disease. 
 
 ## Project Overview
 
@@ -46,6 +46,26 @@ The methodology involves the following key steps:
 
 This multidisciplinary project aims to shed light on the metabolic mechanisms of Parkinson's Disease using cutting-edge computational modelling and data integration techniques. This work is a testament to the power of combining diverse sources of data to gain insights into complex biological systems.
 
+## Publication (Manuscript Under Review)
+
+For a comprehensive understanding of the `XomicsToModel` function and its applications, please refer to our publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
+
+[Link to Manuscript (Under Review)](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v2)
+
 Please explore the code and resources in this repository to learn more about the research.
 
-*Note: The preprint of this work is currently under review in Nature Communications in Biology, and the link provided is to the preprint version.*
+## License
+
+This project is dual-licensed under two licenses: [dataTRICKS](https://github.com/Gpreciat/dataTRICKS/blob/main/LICENSE.txt) (since I authored the code) and the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/) license (as the project was further developed there). Users are encouraged to review and comply with the terms of both licenses.
+
+For details on the licenses, please refer to the respective repositories.
+
+## Contribution and Contact
+
+We welcome contributions and feedback from the research community. If you have any questions, suggestions, or would like to collaborate, please feel free to contact us through the information provided below:
+
+**German Preciat, PhD**
+- LinkedIn: [@gpreciat](https://www.linkedin.com/in/gpreciat/)
+- Email: gapreciat@gmail.com
+
+Join me in unraveling the mysteries of dopaminergic neurons and their role in Parkinson's Disease! 🧠🔬📈

@@ -12,9 +12,9 @@
 
 This repository provides a comprehensive collection of sampling algorithms for metabolic models, including methods such as CHRR (Coordinate Hit-and-Run with Rounding). These algorithms allow for uniform sampling of the flux space, enabling researchers to gain insights into metabolic network behavior.
 
-## Usage
+## Getting Started
 
-The sampling algorithms available in this repository can also be found in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox), a widely used platform for constraint-based modeling of metabolic networks.
+You can also find scripts and functions related to this project in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox). For a detailed guide, please refer to the [COBRA Toolbox Documentation](https://github.com/opencobra/cobratoolbox/blob/master/docs/source/notes/COBRAModelFields.md).
 
 ### Identifying Significant Reactions
 
@@ -34,11 +34,22 @@ The repository provides tools for both undersampling and sampling of metabolic m
 
 Additionally, this repository offers functionality for Flux Variability Analysis (FVA), which returns the minimum and maximum possible flux through every reaction in a model. It allows for a comprehensive exploration of the model's capabilities under various conditions.
 
-## Getting Started
-
-To get started with these sampling algorithms, make sure you have the required dependencies installed as specified in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox) installation guide. Initialize the COBRA Toolbox and verify that the pre-packaged LP and QP solvers are functional.
-
 ## Examples
 
 Explore the provided examples to understand how to use these sampling algorithms effectively. From identifying significant reactions to performing FVA and sampling metabolic models, this repository offers a wide range of tools for your research needs.
 
+## License
+
+This project is dual-licensed under two licenses: [dataTRICKS](https://github.com/Gpreciat/dataTRICKS/blob/main/LICENSE.txt) (since I authored the code) and the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/) license (as the project was further developed there). Users are encouraged to review and comply with the terms of both licenses.
+
+For details on the licenses, please refer to the respective repositories.
+
+## Contribution and Contact
+
+We welcome contributions and feedback from the research community. If you have any questions, suggestions, or would like to collaborate, please feel free to contact us through the information provided below:
+
+**German Preciat, PhD**
+- LinkedIn: [@gpreciat](https://www.linkedin.com/in/gpreciat/)
+- Email: gapreciat@gmail.com
+
+Let's explore the fascinating world of metabolic sampling together and uncover valuable insights for your research! 🧪🔍🔬

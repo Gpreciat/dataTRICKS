@@ -26,9 +26,13 @@ The Chemoinformatics Database Generation project offers a powerful tool for gene
 
 3. **Reaction Generation:** Generate atomically balanced reactions along with files in RXN, RInChI, and SMILES formats.
 
-## Integration with COBRA Toolbox
+## Getting Started
 
-You can also find scripts and functions related to this project in the COBRA Toolbox. For more detailed results using different genomic-scale models, please refer to [the GitHub repository here](https://github.com/opencobra/ctf).
+You can also find scripts and functions related to this project in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox). For a detailed guide on using these functions, please refer to the [COBRA Toolbox Documentation](https://github.com/opencobra/cobratoolbox/blob/master/docs/source/notes/COBRAModelFields.md).
+
+## Chemoinformatic databases generated
+
+For more detailed results using different genomic-scale models, please refer to [the GitHub repository here](https://github.com/opencobra/ctf).
 
 ## Applications
 
@@ -38,16 +42,19 @@ You can also find scripts and functions related to this project in the COBRA Too
 - **Functional Objective Design:** Develop functional objectives for metabolic models.
 - **Identification of Enthalpy and Bond Changes:** Investigate thermodynamic properties at a genomic scale.
 
-## Getting Started
-
-All project code and functions are available in the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/). To get started, clone the COBRA Toolbox repository and explore the `chemoInformatics` folder.
-
 ## License
 
 This project is dual-licensed under two licenses: [dataTRICKS](https://github.com/Gpreciat/dataTRICKS/blob/main/LICENSE.txt) (since I authored the code) and the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/) license (as the project was further developed there). Users are encouraged to review and comply with the terms of both licenses.
 
 For details on the licenses, please refer to the respective repositories.
 
-Feel free to contribute to this project and leverage its capabilities to enhance your genomic-scale metabolic modeling tasks.
 
-Happy coding!
+## Contribution and Contact
+
+We welcome contributions and feedback from the research community. If you have any questions, suggestions, or would like to collaborate, please feel free to contact us through the information provided below:
+
+**German Preciat, PhD**
+- LinkedIn: [@gpreciat](https://www.linkedin.com/in/gpreciat/)
+- Email: gapreciat@gmail.com
+
+Happy molecule hunting! 🧪🔍🔬
