@@ -1,6 +1,6 @@
 # Dopaminergic Neuron GEM: Omics-Powered Repository
 
-![neuron](data/neuron.png)
+![neuron](data/neuron.jpg)
 
 ## Introduction
 
