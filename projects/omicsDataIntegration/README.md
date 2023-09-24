@@ -12,7 +12,7 @@
 
 ## Introduction
 
-The `XomicsToModel` function is a powerful tool within the COBRA Toolbox designed to bridge the gap between multi-omics data and genome-scale metabolic models. This function serves as a transformative bridge, allowing researchers to translate various omics datasets, such as transcriptomics, proteomics, metabolomics, and literature-based "bibliomics," into context-specific metabolic models for particular cell types or conditions.
+The `XomicsToModel` function is a powerful tool within the COBRA Toolbox designed to bridge the gap between multi-omics data and genome-scale metabolic models. This function serves as a transformative bridge, allowing researchers to translate various omics datasets, such as transcriptomics, proteomics, metabolomics, and literature-based "bibliomics," into context-specific metabolic models for particular cell types or conditions. This methodology was utilised in the study by *Preciat et al.* to construct a genome-scale model of cell dopaminergic neurons derived from pluripotent stem cells ([iDopaNeuro](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/dopaminergicNetworkGem)). The omics information employed encompassed bibliomic, metabolomic, and transcriptomic data.
 
 ## Key Features
 
@@ -47,7 +47,6 @@ For a comprehensive understanding of the `XomicsToModel` function and its applic
 
 [Link to Manuscript (Under Review)](https://www.biorxiv.org/content/10.1101/2021.11.08.467803v1)
 
-
 ## License
 
 This project is dual-licensed under two licenses: [dataTRICKS](https://github.com/Gpreciat/dataTRICKS/blob/main/LICENSE.txt) (since I authored the code) and the [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/tree/master/) license (as the project was further developed there). Users are encouraged to review and comply with the terms of both licenses.
@@ -63,5 +62,3 @@ We welcome contributions and feedback from the research community. If you have a
 - Email: gapreciat@gmail.com
 
 Thank you for choosing `XomicsToModel`. Together, let's unravel the mysteries of metabolism! 🧬🔬📊
-
-Happy coding!

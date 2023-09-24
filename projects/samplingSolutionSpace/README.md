@@ -24,7 +24,7 @@ One of the key features of this repository is the `identifySignificantRxns` func
 2. **Calculating the Covariance Matrix:** Compute the covariance matrix based on the sampled data.
 3. **Computing the Euclidean Norm:** Determine the Euclidean norm to quantify the significance of reactions.
 
-This approach enables the identification of reactions for which constraining their bounds would have a substantial impact on the original flux space. The methodology was initially proposed by [Preciat et al.](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v1) for determining which reactions to measure exometabolically to maximize the obtained information.
+This approach enables the identification of reactions for which constraining their bounds would have a substantial impact on the original flux space. The methodology was initially proposed by [Preciat et al.](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v1) for determining which reactions to measure exometabolically to maximize the obtained information. The implementation can be seen [here](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/dopaminergicNetworkGem).
 
 ### Undersampling and Sampling
 

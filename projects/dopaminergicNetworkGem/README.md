@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Metabolic%20Engineering-Expert-green.svg" alt="Metabolic Engineering">
+  <img src="https://img.shields.io/badge/Data%20Science-Expert-green.svg" alt="Data Science">
   <img src="https://img.shields.io/badge/Software%20Development-Expert-green.svg" alt="Software Development">
   <img src="https://img.shields.io/badge/Research-Expert-green.svg" alt="Research">
 </p>
@@ -32,7 +33,7 @@ The methodology involves the following key steps:
 
 3. **Literature Curation**: Cell-type-specific data were derived from manual curation of the literature on dopaminergic neuronal metabolism.
 
-4. **Model Integration**: Omics data were integrated with a generic metabolic model derived from a comprehensive reconstruction of human metabolism.
+4. **Model Integration**: Omics data were integrated with a generic metabolic model derived via [XomicsToModel](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/omicsDataIntegration), from a comprehensive reconstruction of human metabolism.
 
 5. **Model Generation**: An ensemble of candidate dopaminergic neuronal metabolic models were generated, considering technical parameters and mathematical modeling approaches.
 
@@ -40,7 +41,7 @@ The methodology involves the following key steps:
 
 7. **Validation**: The predictive fidelity of the iDopaNeuro models was validated by comparison with independent exometabolomic data generated on perturbations to normal dopaminergic neuronal metabolism in vitro.
 
-8. **Prospective Experiments**: Finally, the iDopaNeuro models were used prospectively to design exometabolomic experiments to generate new constraints on the variables currently [most uncertain](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/samplingSolutionSpace) in the model.
+8. **Prospective Experiments**: Finally, the iDopaNeuro models were used prospectively to design exometabolomic experiments to generate new constraints on the variables currently most uncertain via [Sampling analysis](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/samplingSolutionSpace) in the model.
 
 ## Conclusion
 
@@ -48,7 +49,7 @@ This multidisciplinary project aims to shed light on the metabolic mechanisms of
 
 ## Publication (Manuscript Under Review)
 
-For a comprehensive understanding of the `XomicsToModel` function and its applications, please refer to our publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
+For a comprehensive understanding of the complete procedure, please refer to the publication (manuscript under review). We are currently in the review process, and the manuscript will be updated to the corresponding journal once it is accepted.
 
 [Link to Manuscript (Under Review)](https://www.biorxiv.org/content/10.1101/2021.06.30.450562v2)
 
