@@ -1,7 +1,6 @@
-# Understanding Parkinson's Disease Metabolism through Computational Modelling
+# Dopaminergic Neuron GEM: Omics-Powered Repository
 
-![iDN Pipeline](data/iDN_pipeline.png)
-*Caption: Human neuroepithelial stem cells were differentiated into midbrain-specific dopaminergic neuronal cultures in vitro (A). Transcriptomic and targeted exometabolomic data were generated from fresh and spent media samples (B). This condition-specific omics data together with cell-type-specific data derived from manual curation of the literature on dopaminergic neuronal metabolism (C) were integrated with a generic metabolic model (D) derived from a comprehensive reconstruction of human metabolism (E). An ensemble of candidate dopaminergic neuronal metabolic models were generated (F), as function of technical parameters (G) and mathematical modelling approaches (H). The models with the highest predictive fidelity were identified (I), which gave preference to either in vitro experimental data (iDopaNeuro condition specific; iDopaNeuroC) or dopaminergic neuronal literature curation (iDopaNeuro cell-type specific; iDopaNeuroCT). The predictive fidelity of the iDopaNeuro models was validated by comparison of predictions with independent exometabolomic data generated on perturbations to normal dopaminergic neuronal metabolism in vitro (J). Finally, the iDopaNeuro models were used prospectively to design exometabolomic experiments to generate new constraints on the variables currently most uncertain in the model (K).*
+![neuron](data/neuron.png)
 
 ## Introduction
 
@@ -29,7 +28,7 @@ The methodology involves the following key steps:
 
 7. **Validation**: The predictive fidelity of the iDopaNeuro models was validated by comparison with independent exometabolomic data generated on perturbations to normal dopaminergic neuronal metabolism in vitro.
 
-8. **Prospective Experiments**: Finally, the iDopaNeuro models were used prospectively to design exometabolomic experiments to generate new constraints on the variables currently most uncertain in the model.
+8. **Prospective Experiments**: Finally, the iDopaNeuro models were used prospectively to design exometabolomic experiments to generate new constraints on the variables currently [most uncertain](https://github.com/Gpreciat/dataTRICKS/tree/main/projects/samplingSolutionSpace) in the model.
 
 ## Conclusion
 
