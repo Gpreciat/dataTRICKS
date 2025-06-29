@@ -7,7 +7,7 @@
 
 ---
 
-> 🧠 This repository contains the full codebase, data, and supplementary materials for the project **"AI-Based Analysis of STEM Admission Trends in Western Mexican Universities"**, presented at the [Name of AI Conference] 2025.
+> 🧠 This repository contains the full codebase, data, and supplementary materials for the project **"AI-Based Analysis of STEM Admission Trends in the University of Guadalajara"**, presented at the The Mexican International Conference on Artificial Intelligence (MICAI) 2025.
 
 ---
 
@@ -19,7 +19,7 @@ We applied **machine learning** and **statistical modeling** techniques to:
 
 - Detect long-term stagnation or decline in engineering interest
 - Evaluate the impact of COVID-19 on student behavior
-- Cluster programs by competitiveness using PCA and K-Means
+- Cluster programs by competitiveness using PCA
 - Identify anomalous trajectories via Isolation Forest and LOF
 - Forecast future applicant volume using SARIMA
 
